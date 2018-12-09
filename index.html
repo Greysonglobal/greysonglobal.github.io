@@ -1,168 +1,945 @@
-
 <!DOCTYPE html>
-<html>
-     <head>
-          <meta charset="utf-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-          <title>Greyson Global Supplies</title>
+<head>
 
-         
-          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-          <!-- Normalize -->
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-          <!-- Custom CSS -->
-          <link href="css/styles.css" rel="stylesheet">
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Greyson Global</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-          <style>
-               .astonish {
-                    visibility: visible;
-               }
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-               @media (min-width: 768px) {
-                    .astonish {
-                         visibility: hidden;
-                    }
-                    .animated {
-                         visibility: visible;
-                    }
-               }
-          </style>
-     </head>
-     
-     <body>
-          <!-- Main Navigation -->
-          <nav class="main-nav" id="main-nav">
-               <div class="content-wrapper-sm">
-                    <div class="brand">
-                    <span class="img"> <a href="index.html"><img src="img/logo.png"> </span></a>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/popup.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <span class="img"> <a href="index.html"><img src="images/logo.png"  alt="Avatar" style="border-radius:50%;"> </a></span>
+                        
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Projects</a></li>
+                    <li><a class="smoothscroll"  href="#clients" title="clients">Our Markets</a></li>
+                    <li><a class="smoothscroll"  href="#certs" title="clients">Certifications</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contacts</a></li>
+                    
+                </ul>
+
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://www.facebook.com/Greyson-Global-Supplies-191511308081107/"><i class="fa fa-facebook"></i></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+        
+
+    </header> <!-- end s-header -->
+
+
+
+<!-- the popup description of projects-->
+<!--cctv-->
+<div class="popupa" id="popup1">
+    <div class="title" style="color:blue; text-decoration: underline ;">NATIONAL/COUNTY GOVERNMENT FACILITIES</div>
+   <br>  We serve government institutions in a number of ways in order to meet their needs. To them we offer the following services:
+   <br>  • Sourcing, supply and delivery of computers, printers, stationery and accessories
+   <br>  • Supply and installation of security apparatus such as CCTV surveillance systems, access control, burglar/intruder alarm systems, electric fence etc
+   <br>  • Website design, development and maintenance
+   <br>  • Backbone/horizontal/work area structured cabling to support voice, video, network, sound and other telecommunication architecture within the building
+   <br>  • Bollards/swing barriers
+   <br>  • Addresible fire alarm system installation. 
+   <br>  • Staff clock in clock out system
+   <br>  • Sliding gates
+    <br><a href="#" style="color:blue; " onclick="hide('popup1')">Close</a>
+</div>
+
+<!--access control-->
+<div class="popupb" id="popup2">
+    <div class="title" style="color:blue; text-decoration: underline ;">SCHOOLS AND COLLEGES</div>
+   <br> At Greyson Global, we offer solutions particularly designed to answer the bellow questions and who else would do it better if not
+    us? How easy has supervision during exams proven to be? How many teachers get deployed to oversee such an exercise? What if
+    there was a way in which only one teacher monitors each and every student at the comfort of their office? Do you spend a lot of
+    money designing exam cards and still some students forge them and sit for exams without paying or even collude with those
+    tasked with overseeing the process? Does your administration often get entangled in solving cases of voter rigging after every student leader’s elections? Is your administration having trouble managing staff attendance?
+    Are you having trouble controlling students sneaking out of school? 
+    Do you need routine servicing and preventive maintenance of your computers and network infrastructure? Do you need a state of the art computer lab professionally designed to cater for your students learning needs, does your
+    computer lab need a face lift? Do you want to market your school? Kindly do not hesitate to get in touch with us even as we look
+    forward to offering you the following services which ultimately puts your concerns to rest:
+ 
+   <br>CCTV surveillance system installation,
+            , Electric fence installation
+            , Time and attendance machine installation
+            ,Biometric access control installation
+            , Work area structured cabling for computer labs
+            , Sourcing, supply, and maintenance of computers, printers, copiers, projectors, and all peripherals
+            , Website design, development and maintenance, social media sites management
+            , Design and printing of magazines, brochures, fliers and banners
+            , Bulk SMS software installation
+            ,Supply of firefighting equipment
+    <br><a href="#" style="color:blue;" onclick="hide('popup2')">Close</a>
+</div>
+<!--electric fence-->
+<div class="popupc" id="popup3">
+    <div class="title" style="color:blue; text-decoration: underline ;">COMMERCIAL BUILDINGS/MALLS/OFFICES</div>
+   <br> 
+        Commercial buildings are very susceptible to insecurity threats owing to the huge amount of human traffic that patronize them
+        every day. They therefore turn out to be one of our greatest clients when it comes to security installations. Some of them such as
+        malls are home to restaurants, supermarkets, boutiques, clubs and various businesses which require specialized installations to not
+        only help minimize insecurity but also ease work thus improving employee output. Greyson Global partners with such clients by
+        offering the following solutions:
+        <br>• Sourcing, supply, installation and maintenance of both IP based and HD CCTV surveillance systems
+        , Installation and maintenance of sliding gates, bollards and swing barriers
+        , Installation, training and commissioning of biometric access control and door magnetic locks/electric locks
+        <br>• Backbone, horizontal and work area structured cabling using both copper and faiba to support voice, data, video, sound and TV
+        , Sourcing, supply and installation of IP based telephone system and PABX
+        <br>• Data center design, installation and maintenance
+        ,Sound system installation and maintenance
+        ,Audio/video intercom system installation and maintenance
+        <br>• Installation, testing and commissioning of fire alarm system comprising addressable fire alarm panel, smoke and heat detectors,
+        call points, sounders, powder and CO2 fire extinguishers, fire blankets and sprinklers
+        ,Supply, installation, testing and commissioning of intruder alarm system comprising door magnetic contacts, vibration detectors,
+        panic buttons and PIR motion sensors
+   <br> <a href="#" style="color:blue;" onclick="hide('popup3')">Close</a>
+</div>
+<!--structured cablling-->
+<div class="popupd" id="popup4">
+    <div class="title" style="color:blue; text-decoration: underline ;">HOSPITALITY INDUSTRY</div>
+    <br> 
+        We offer the following services to the hotel industry:
+
+        <br>• Installation, training and commissioning of hotel management system
+        <br>• Sourcing and supply of metal detectors
+        <br>• Supply, installation and training of point of sale machines and software
+        <br>• Sourcing, supply and installation of cash drawers
+        <br>• Installation of (WI-FI) customized to use client ID as password
+        , Structured cabling using either copper of faiba optics to support voice, video, sound or data outlets
+        <br>• Installation of entertainment system comprising sound and LCD monitors (TVs)
+        <br>• Installation of addressable fire alarm system
+        <br>•Supply, installation and routine maintenance of a modern access control system comprising biometric readers, fingerprint scanners, facial recognition terminals and time and attendance machines
+        ,Supply and installation of video/audio intercom system
+        <br>•Supply, installation and maintenance of HD or IP based CCTV surveillance system,
+        Supply and installation of IP telephone system
+        <br>•Installation of intruder alarm system
+        <br>•Supply and installation of uninterrupted power supply system (UPS), automatic voltage regulators (AVRs) and surge
+        protectors
+   <br> <a href="#" style="color:blue;" onclick="hide('popup4')">Close</a>
+</div>
+
+<!--structured cablling-->
+<div class="popupe" id="popup5">
+    <div class="title" style="color:blue; text-decoration: underline ;">PRIVATE HOMES, VILLAS AND APARTMENTS</div>
+    <br> 
+    Private developers and modern home owners have no doubt revolutionalised this industry. The difference
+    between today’s home and a business premise has now proven to be more difficult to discover as home
+    owners now embrace the need for modern security installations and sort the services of ICT experts more
+    than ever before. Our team has rolled out numerous projects from initial system design all the way to product sourcing,
+     supply, installation and maintenance of various equipment necessary for a proper home security.
+     We at Greyson Global therefore urges you the home owner and or private developer to walk with us
+    even as we anticipate to derive customized solutions that work best for your project. Get in touch with us to
+    enjoy the following services:
+ 
+    <br>• Sourcing, supply and installation of spy/nanny/hidden/outdoor CCTV surveillance cameras
+    <br>• Supply and installation of an intercom system
+    <br>•Installation of access control system, electric door locks, RFID readers, biometric scanners and door magnetic locks
+    ,Installation of reliable intruder alarm system
+    <br>•Installation of swing barriers, bollards and sliding gate automation
+    <br>•Perimeter wall security using electric fence and razor wires
+    <br>•Installation of addressable fire alarm system
+    <br>• Horizontal or vertical structured cabling for voice, data and security
+    ,Installation of cabled/satellite TV
+    <br><a href="#" style="color:blue;" onclick="hide('popup5')">Close</a>
+</div>
+
+<!--structured cablling-->
+<div class="popupf" id="popup6">
+    <div class="title" style="color:blue; text-decoration: underline ;">COMMERCIAL BUILDINGS/MALLS/OFFICES</div>
+    <br> 
+    Commercial buildings are very susceptible to insecurity threats owing to the huge amount of human traffic that patronize them
+    every day. They therefore turn out to be one of our greatest clients when it comes to security installations. Some of them such as
+    malls are home to restaurants, supermarkets, boutiques, clubs and various businesses which require specialized installations to not
+    only help minimize insecurity but also ease work thus improving employee output. Greyson Global partners with such clients by
+    offering the following solutions:
+    <br>• Sourcing, supply, installation and maintenance of both IP based and HD CCTV surveillance systems
+        ,Installation and maintenance of sliding gates, bollards and swing barriers
+        , Installation, training and commissioning of biometric access control and door magnetic locks/electric locks
+        , Backbone, horizontal and work area structured cabling using both copper and faiba to support voice, data, video, sound and TV
+        , Sourcing, supply and installation of IP based telephone system and PABX
+        , Data center design, installation and maintenance
+        , Sound system installation and maintenance
+        , Audio/video intercom system installation and maintenance
+        , Installation, testing and commissioning of fire alarm system comprising addressable fire alarm panel, smoke and heat detectors,
+    call points, sounders, powder and CO2 fire extinguishers, fire blankets and sprinklers
+        ,Supply, installation, testing and commissioning of intruder alarm system comprising door magnetic contacts, vibration detectors,
+    panic buttons and PIR motion sensors
+   <br> <a href="#" style="color:blue;" onclick="hide('popup6')">Close</a>
+</div>
+<!-- the end of the popup description of projects-->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/image1.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>Welcome to Greyson Global</h1>
+
+                <h3 class="text-center">
+                    <i>TECHNOLOGY WITH A DIFFERENCE</i><br>
+                </h3>
+
+                <div class="home-content__buttons">
+                    <a href="#contact" class="smoothscroll btn btn--stroke">
+                        Start a Project
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Us
+                    </a>
+                    <a href="#clients" class="smoothscroll btn btn--stroke">
+                        Our Markets
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+        </ul>
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Hello There</h3>
+                <h1 class="display-1 display-1--light">Learn about us</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="">
+                <p style="text-align:left;">
+                    <i>VISION STATEMENT:</i>
+                    To realize a more technologically advanced society where Information Technology is revered and applied in the day to day business operations at affordable rates.<br>
+                    <br><i>MISSION STATEMENT:</i>
+                    To become the most sort after IT farm when it comes to prompt and high quality service delivery. <br>
+                    <br><i>CORE VALUES:</i>
+                    Greyson global strongly believes in treating her customers with utmost respect and professionalism. We thrive most in creativity, invention and innovation. We infuse honesty, integrity and business ethics into all spheres of our business operations and this is what gives GREYSON GLOBAL her identity
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+
+            <div class="col-block stats__col">
+                <div class="stats__count">7</div>
+                <h5>Projects Completed</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">7</div>
+                <h5>Happy Clients</h5>
+            </div>
+
+        </div> <!-- end about-stats -->
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">What We Do</h3>
+                 <p style="text-align:left;"> Greyson global is a total IT solutions provider that specializes in both hardware and software applications and which was founded in the year 2016.
+                    Our team constitutes highly trained engineers who are well versed with the latest technological trends both in hardware and software applications and who are always willing to go the extra mile of achieving the company’s greatest mandate which is customer satisfaction.
+                    We employ the latest technological applications, tools and techniques in order to meet our huge clientele base at their point of need .
+                    At Greyson global, we keep in mind that the world has now evolved into one big global market and as such we take it as our mandate to derive the means and methods of solving our clients’ needs no matter the field they are in provided they are in need of IT services which fall within our scope. 
+                    Click here to view our <a href="https://drive.google.com/open?id=1vvX4dTgQmWd5hGw3LtRQeeHJNhl8r54p">portfolio </a>and <a href="https://drive.google.com/open?id=1Pt3BvcgmjxCt0szblzC-R6ZAR9MhtlfP">profile</a>
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-paint-brush"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Hardware</h3>
+                    <p>Data Centre setup, CCTV,
+                        access control,Fire Alarms,
+                        Intrudar Alarms,Satelite TV,
+                        Video/Audio intercoms,
+                        Public Address Systems, Gate Automation,
+                        Number plate Capture cameras,Hotel Smart locks,
+                        Structured cablling(fibre optics and copper), IP Telephone systems etc
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Software</h3>
+                    <p>Intelligent Video Management Systems,
+                        website Design and Development,web  based applications,
+                        Point of Sales Software,
+                        School Management Systems,
+                        Hospital/Pharmacy Management Systems,
+                        BUlk SMS softwares,Cloud computing etc
+                    </p>
+                </div>
+            </div>
+
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id='works' class="s-works">
+
+        <div class="intro-wrap">
+
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Projects</h3>
+                    <h3 class="display-2--light" style="text-align:left;">Check out some of the projects we at Greyson Global have managed to roll out successfully and to our customer satisfaction. We have offered structured cabling,CCTV surveillance installation,wireless and wired network installation,access control installation among other solutions to big brands such as Oriental Woolen mills limited,Kafe Koko restaurant,Hardees restaurant,Yamaha(credible sounds) just to mention a few.</h3>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-rack.jpg" class="thumb-link" title="Cabling" data-size="1050x700">
+                                    <img src="images/portfolio/cable.jpg"
+                                         srcset="images/portfolio/cable.jpg 1x, images/portfolio/yellow-cable.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Structured Cabling
+                                </h3>
+                            </div>
+
+                            <a href="https://www.greysonglobal.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>We do structured cabling in commercial buildings and offices including shops and supermarkets, religious institutions, private homes and any other entity in need of such services.
+                                The service includes the laying of both copper and fibre optics to support data, voice and video telecommunications, as well as other building signal systems including security, audio, alarms and energy management. <br>
+                                Client: Oriental Woolen mills limited
+                            </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-Hikvision Door Phone System.png.jpeg" class="thumb-link" title="Intercoms" data-size="1050x700">
+                                    <img src="images/portfolio/outdoor-panels.png"
+                                         srcset="images/portfolio/outdoor-panels.png 1x, images/portfolio/outdoor-panels.png2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Voice/Video Intercoms
+                                </h3>
+                            </div>
+
+                            <a href="https://www.greysonglobal.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>We partner with some of the leading names as far as VoIP is concerned among them being Cisco, Avaya,
+                                    D-link, yeaster, Asterisk and Siemens.</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/access.jpeg" class="thumb-link" title="ACCESS CONTROL " data-size="1050x700">
+                                    <img src="images/portfolio/access.jpeg"
+                                         srcset="images/portfolio/access.jpeg 1x, images/portfolio/outdoor-panels.png2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                        ACCESS CONTROL AND BIO-METRICS
+                                </h3>
+                            </div>
+
+                            <a href="https://www.greysonglobal.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                  <p>Do you want to restrict entry to some parts or even your entire premise?Greyson Global makes this possible for you with our state of the art access control solutions. 
+                                    We do sourcing, supply, installation and maintenance of all access control terminals be it card readers, finger print scanners or even facial recognition machines that allows you to choose who accesses what parts of your premise and at what times. 
+                                    We also do installations of smart locks for hotels, electric locks, door magnetic locks, exit switches and time and attendance machines that allow for employee attendance recording.
+                                    Talk to us.
+                                    </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-cam2.jpg" class="thumb-link" title="CCTV" data-size="1050x700">
+                                    <img src="images/portfolio/CCTV.jpg"
+                                         srcset="images/portfolio/CCTV.jpg 1x, images/portfolio/CCTV.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Security
+                                </h3>
+                                <p class="item-folio__cat">
+                                    CCTV surveillance
+                                </p>
+                            </div>
+
+                            <a href="https://www.greysonglobal.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Greyson Global is one of the leading farms when it comes to professional CCTV installations. 
+                                        We have customized solutions to suit our clients’ needs depending on whats best for them in terms of their budget and situation. 
+                                        We offer both covert and overt surveillance solutions be it nanny/spy/hidden cameras all the way to outdoor IP based or HD cameras .
+                                        Our CCTV solutions come with free intelligent Video Management Software installation to allow for remote access of your cameras from anywhere you are using your iPad,tablet or even mobile phone. 
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/fence.jpeg" class="thumb-link" title="PERIMETER ELECTRIC FENCE INSTALLATION" data-size="1050x700">
+                                    <img src="images/portfolio/fence2.jpeg"
+                                         srcset="images/portfolio/fence2.jpeg 1x, images/portfolio/fence2.jpeg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Security
+                                </h3>
+                                <p class="item-folio__cat">
+                                        PERIMETER ELECTRIC FENCE INSTALLATION
+                                </p>
+                            </div>
+
+                            <a href="https://www.greysonglobal.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>   Security couldn't make more sense without an electric perimeter fence installation coupled with  razor wire to ward off individuals of questionable character who want to jump over your fence and reap from where they never sowed. 
+                                        Long gone are the days when perimeter walls were decorated with broken glasses that gave false hope to home owners and made them imagine that they were safe. 
+                                        We do wall top electric fence installation for perimeter walls and free standing electric fence for compounds without any form of fencing. 
+                                        We employ the use of all types of electric fence energizers including those that allow you to pin point the exact location (zone) where a fault is originating from thus allowing for easy troubleshooting. 
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+        </div> <!-- end works-content -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our Markets</h3>
+                <h1 class="display-2">Who are our clients</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <div class="clients">
+
+                    <a href="#" onclick="show('popup1')" title="" class="clients__slide"><img src="images/clients/gvt.png" />National/County Government Facility</a>
+                    <a href="#" onclick="show('popup2')" title="" class="clients__slide"><img src="images/clients/school.png" />Schools and Colleges</a>
+                    <a href="#" onclick="show('popup3')" title="" class="clients__slide"><img src="images/clients/mall.png" />Commercial Buildings/malls/offices</a>
+                    <a href="#" onclick="show('popup4')" title="" class="clients__slide"><img src="images/clients/hotel.png" />Hospitality Industry</a>
+                    <a href="#" onclick="show('popup5')" title="" class="clients__slide"><img src="images/clients/homes.png" />Private Homes,Villas and Appartments</a>
+                    <a href="#" onclick="show('popup6')" title="" class="clients__slide"><img src="images/clients/office.png" />Commercial Buildings/offices</a>
+                </div> <!-- end clients -->
+            </div> <!-- end col-full -->
+        </div> <!-- end clients-outer -->
+            <h1 class="text-center" id="certs">Certifications</h1>
+        <div class="row clients-testimonials" data-aos="fade-up">
+            <div class="col-full">
+                <div class="testimonials">
+
+                    <div class="testimonials__slide">
+
+                        <p>YAGPO Certifcate</p>
+
+                        <img src="images/certs/AGPO CERTIFICATE.jpg">
+                        <div class="testimonials__info">
+                            <span class="testimonials__pos">YAGPO</span>
+                        </div>
+
                     </div>
-                    <div id="menu-button">
-                         <div class="bar1"></div>
-                         <div class="bar2"></div>
-                         <div class="bar3"></div>
+
+                    <div class="testimonials__slide">
+
+                        <p>Structured Cablling Training Certificate</p>
+
+                        <img src="images/certs/CLAVA COPPER0005.jpg">
+                        <div class="testimonials__info">
+                            <span class="testimonials__pos">(Copper and fibre optics)</span>
+                        </div>
+
                     </div>
-                    <ul class="nav-links">
-                         <li><a href="index.html" >Home</a></li>
-                         <li><a href="about.html" >About</a></li>
-                         <li><a href="projects.html" > Completed Projects</a></li>
-                         <li><a href="solutions.html" >Solutions</a></li>
-                    </ul>
-               </div>
-          </nav>
 
-          <!-- Main header -->
-          <header>
-               <!-- background image a server room image -->
-               <img class="img-absolute" src="img/image1.jpg" alt="City 1">
-               <div class="wrapper astonish animated fadeInDown">
-                     <h1><strong>Greyson</strong>Global</h1>
-                     <h2><i>TECHNOLOGY WITH A DIFFERENCE </i><br>
-               </div>
-          </header>
+                    <div class="testimonials__slide">
 
-          <!-- Main content -->
-          <main>
-               <div class="content-wrapper" id="about">
-                    <!-- second background image -->
-                    <img class="img-absolute" src="img/city2.png" alt="City 2">
-                    <div class="grid">
-                         <div class="grid-col-sm-12 grid-col-md-6 astonish" data-animation="fadeInLeft">
-                              <h2 class="section-title">About</h2>
-                              <p>A Nairobi based ict company that strives to satisfy the modern day technological needs be it commercial,entrepreneurial or even personal satisfaction.</p>
-                              <p>Up-to-date technological advancements in terms of networking, security systems(Cyber and burglary  proof ) and access control are of priority to us.</p>
-                              <p>Quality hardware and software delivery,installation and configuration with highly qualified technicians and certified engineers at your service on demand.</p>
-                         </div>
+                        <p>Giganet Certified Instaler Certificate</p>
+
+                        <img src="images/certs/CLAVA FAIBA AND COPPER.jpg">
+                        <div class="testimonials__info">
+                            <span class="testimonials__pos">Giganet - Network Cabling Solutions</span>
+                        </div>
+
                     </div>
-               </div>
 
-               <div id="reserve" class="content-wrapper-lg text-center astonish" data-animation="zoomIn">
-                    <!-- third background image -->
-                    <img class="img-absolute" src="img/keys.jpg" alt="City 3">
+                    <div class="testimonials__slide">
 
-                    <h2 class="section-title">Explore Our Projects</h2>
-                    <p>Explore some of our solutions by digging into our completed projects and the approvals . 
-                      A pictorial description of the same is available for the hardware installations while the software works are in our GitHub account.
-                       Also to be noted are our partners and the associative dealers we have for our products</p>
-                    <a href="#" class="btn btn-outline-purple">Download</a>
-               </div>
+                        <p>Siemon Registered Installer Certificate</p>
 
-               <div class="content-wrapper" id="contact">
-                    <!-- the contact massage image -->
-                    <img class="img-absolute" src="img/city3.png" alt="City 3">
+                        <img src="images/certs/CLAVA SIEMON CERT0002.jpg">
+                        <div class="testimonials__info">
+                            <span class="testimonials__pos">SIEMON</span>
+                        </div>
 
-                    <!-- php needed for the actualization of dynamic response to make this form work -->
-                    <form class="contact-form astonish" action="#" method="post" data-animation="fadeInRight">
-                         <h2 class="section-title">Contact Us</h2>
-                         <div class="grid">
-                              <div class="grid-col-sm-12 grid-col-md-6">
-                                   <div class="form-group">
-                                        <input type="text" name="firstName" required>
-                                        <label for="firstName">First Name:</label>
-                                   </div>
-                              </div>
-                              <div class="grid-col-sm-12 grid-col-md-6">
-                                   <div class="form-group">
-                                        <input type="text" name="lastName" required>
-                                        <label for="lasttName">Last Name:</label>
-                                   </div>
-                              </div>
-                              <div class="grid-col-sm-12">
-                                   <div class="form-group">
-                                        <input type="text" name="email" required>
-                                        <label for="email">Email:</label>
-                                   </div>
-                              </div>
-                              <div class="grid-col-sm-12">
-                                   <div class="form-group">
-                                        <textarea name="message" required></textarea>
-                                        <label for="message">Message:</label>
-                                   </div>
-                              </div>
-                         </div>
-                         <input class="btn btn-outline-teal" type="submit" value="Send">
+                    </div>
+
+                    <div class="testimonials__slide">
+
+                        <p>Siemon Registered Installer Certificate</p>
+
+                        <img src="images/certs/GREYSON SIEMON CERT.jpg">
+                        <div class="testimonials__info">
+                            <span class="testimonials__pos">SIEMON</span>
+                        </div>
+
+                    </div>
+
+                </div><!-- end testimonials -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end client-testimonials -->
+
+            <!-- the certificationa -->
+        <h1 class="text-center">Licenses</h1>
+        <div class="row clients-testimonials" data-aos="fade-up">
+            <div class="col-full">
+                <div class="testimonials">
+
+                    <div class="testimonials__slid">
+
+                        <p>CAK Contractor License</p>
+
+                        <img src="images/licences/CAK LISENCE.jpg" >
+                        <div class="testimonials__info">
+                            <span class="testimonials__pos">CAK</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slid">
+
+                        <p>ICTA License</p>
+
+                        <img src="images/licences/ICTA.jpg">
+                        <div class="testimonials__info">
+                            <span class="testimonials__pos">ICTA</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slid">
+
+                        <p>NCA Electrical Engineering Service Contractor License</p>
+
+                        <img src="images/licences/NCA20006.jpg" >
+                        <div class="testimonials__info">
+                            <span class="testimonials__pos">NCA</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slid">
+
+                        <p>NCA License</p>
+
+                        <img src="images/licences/NCA2.jpg">
+                        <div class="testimonials__info">
+                            <span class="testimonials__pos">NCA</span>
+                        </div>
+
+                    </div>
+
+
+ 
+
+                </div><!-- end testimonials -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end certifications -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">Reach out for a new project</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+
+            <div class="contact-primary">
+
+                <h3 class="h6">Send Us A Message</h3>
+
+                <form name="contactForm" id="contactForm" method="post" action="inc/sendEmail.php" novalidate="novalidate">
+                    <fieldset>
+
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button type="submit" class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div>
+
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+            </div> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Location</h5>
+                        <p>
+                            1ST FLOOR, Ash white Shopping Complex,
+                            Munyu road, off Luthuli Ave,
+                            P.O. Box 3874- 00100,
+                            Nairobi - Kenya.
+                            <br>
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email</h5>
+                        <p>
+                            greysonglobalke@gmail.com<br>
+                            info@greysonglobal.net<br>
+                            support@greysonglobal.net
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Us</h5>
+                        <p>
+                            Phone: +254 721488349<br>
+                            Mobile: +254 751811695<br>
+                        </p>
+                    </div>
+
+                    <ul class="contact-social">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="row footer-main">
+
+            <div class="col-six tab-full left footer-desc">
+
+                <div class="footer-logo1">MORE</div>
+                Greyson Global most definitely is in the IT business but what exactly do we do? The services offered at our company covers a wide scope ranging from sourcing, supply, installation and maintenance of DATA, VOICE, SOUND and SECURITY equipment including STRUCTURED CABLING and dealership in the general IT peripherals such as desktops, laptops, all types of printers , point of sale machines and all computer accessories.
+                We also do installation of genuine software such as all operating systems, MS office suit, quick books, Tally ERP and any other software that you may require.
+                Please drop us your contact with your service request and we will surely get back to you.  
+
+            </div>
+
+            <div class="col-six tab-full right footer-subscribe">
+
+                <h4>Get Notified</h4>
+
+                <div class="subscribe-form">
+                    <form id="mc-form" class="group" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" class="btn btn-primary" value="Subscribe">
+                        <label for="mc-email" class="subscribe-message"></label>
                     </form>
-               </div>
+                </div>
 
-          
-          </main>
+            </div>
 
-          <!-- Main footer -->
-          <footer>
-               <div class="content-wrapper-sm display-flex-between">
-                    <!-- Easily replaceble copyright information -->
-                    <small>&copy 2017.</small>
+        </div> <!-- end footer-main -->
 
-                    <div class="#">
-                              <ul>
-                               <li><small> <i class="fa fa-phone" aria-hidden="true"></i> +254-721488349</small></li>
-                               <li><small> <i class="fa fa-whatsapp" aria-hidden="true"></i> +254-751811695</small></li>
-                               <li><small><i class="fa fa-envelope" aria-hidden="true"></i>greysonglobalke@gmail.com</small></li>
-                               <li><small><i class="fa fa-envelope" aria-hidden="true"></i>info@greysonglobal.net</small></li>
-                               <li><small><i class="fa fa-envelope" aria-hidden="true"></i>support@greysonglobal.net</small></li>
-                              </ul>
-                         </div>
+        <div class="row footer-bottom">
 
-                    <!-- Make sure to edit the links so that they go to your social media. -->
-                    <div class="social-links">
-                         <ul>
-                              <li><a href="https://www.facebook.com/Greyson-Global-Supplies-191511308081107/""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fa fa-snapchat-square" aria-hidden="true"></i></a></li>
-                         </ul>
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Greyson Global 2018</span>
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
                     </div>
-               </div>
-          </footer>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
 
-          <!-- Scripts placed at the bottom for faster loading -->
-          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-          <script src="js/menu.js" charset="utf-8"></script>
+        </div>
 
-          <!-- a support to the astonish files files -->
-          <script src="js/astonish.js" charset="utf-8"></script>
-          <script src="js/nav.js" charset="utf-8"></script>
-          <script src="js/scroll.js" charset="utf-8"></script>
-     </body>
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/popup.js"></script>
+
+</body>
+
 </html>
